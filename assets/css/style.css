@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.game{
+    height: 100vh;
+    background-color:whitesmoke;
+    font-family: sans-serif;
+
+}
+.gameHeading{
+    font-size: 50px;
+}
+.startButton{
+    width: 150px;
+    height:50px;
+    background: none;
+    border: none;
+    color: antiquewhite;
+    background: rgb(240, 22, 156);
+    font-size: 20px;
+    border-radius: 3px;
+
+}
+div.fadeOut {
+    opacity: 0;
+    pointer-events: none;
+}
+div.fadeIn {
+    opacity: 1;
+    pointer-events: all;
+}
+.h1{
+    font-size: 50px;
+}
